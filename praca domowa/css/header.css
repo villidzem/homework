@@ -1,0 +1,58 @@
+.dark {
+    color: #eee;
+    background: #222;
+}
+
+.header__button {
+    background-color: rgb(172, 175, 178);
+    box-shadow: 2px -2px 9px -1px #773431;
+
+}
+
+.navigation {
+    background-color: rgb(150, 200, 222);
+    padding: 20px;
+    text-align: left;
+    margin: 5px auto;
+    font-size: large;
+    font-weight: 700;
+}
+
+.navigation__list {
+    list-style-type: none;
+    display: inline-flex;
+    margin: 5px auto;
+    padding: 5px;
+
+}
+
+
+.navigation__link {
+    padding: 20px;
+    color: #773431;
+}
+
+.navigation__link:hover {
+    color: darkred;
+    outline: 2px solid;
+}
+
+.navigation__link:focus {
+    outline: 2px solid currentColor;
+}
+
+.images {
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__title {
+    color: rgb(113, 60, 60);
+
+}
+
+.container {
+    overflow-x: auto;
+}
